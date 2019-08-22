@@ -1,0 +1,25 @@
+{
+  "name": "react_mvp",
+  "version": "1.0.0",
+  "description": "Areis Suson .NET",
+  "main": "app.js",
+  "scripts": {
+    "wbp": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aries Suson",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "react-router-dom": "^5.0.1",
+    "semantic-ui-react": "^0.87.3"
+  }
+}

@@ -1,0 +1,16 @@
+﻿@model IEnumerable<ReactDemo.NET.Models.Store>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>DisplayStores</h2>
+
+<div id="appStore" class="container"></div>
+
+
+@section Scripts{
+    <httpCookies requireSSL="true" />
+    <script src="~/Scripts/react/dist/app.bundle.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css" />
+}
